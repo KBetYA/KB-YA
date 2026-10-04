@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kbya-portfolio.onrender.com/sitemap.xml
