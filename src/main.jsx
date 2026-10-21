@@ -8,7 +8,7 @@ function App() {
   const [loaded, setLoaded] = useState(false);
 
   return (
-    <main className="site-shell">
+    <div className="site-shell">
       {!loaded && (
         <div className="loading" aria-live="polite">
           <div className="gold-mark">KB&amp;YA</div>
@@ -22,10 +22,7 @@ function App() {
         allow="autoplay; fullscreen; picture-in-picture"
         onLoad={() => setLoaded(true)}
       />
-      <noscript>
-        <a href={portfolioUrl}>Ouvrir le portfolio KB&amp;YA</a>
-      </noscript>
-    </main>
+    </div>
   );
 }
 
